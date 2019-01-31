@@ -1,0 +1,6 @@
+<launch> 
+<node name= "lidar_alarm" pkg= "cxq41_ps2_lidar_alarm" type= "cxq41_ps2_lidar_alarm" output="screen"
+/> 
+<node name= "reactive_commander" pkg= "cxq41_ps2_lidar_alarm" type= "cxq41_ps2_reactive_commander" output="screen"
+/> 
+</launch> 
